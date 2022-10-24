@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.listening.listeningTests.fragments.ListeningTestMainTopicExplanationFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.listening.listeningTests.fragments.ListeningTestMainTopicExplanationFragment"
+        tools:ignore="WebViewLayout">
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/player"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/btn_playAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_playbtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/play_pause_button" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="13dp"
+                android:progressTint="@color/white"
+                android:progressBackgroundTint="@color/yellow_50"
+                android:thumbTint="@color/orange_800"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_playAudio" />
+
+            <ImageView
+                android:id="@+id/btn_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ic_forward_icon_button"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_playAudio"
+                app:layout_constraintEnd_toEndOf="@+id/seekBar"
+                app:layout_constraintTop_toTopOf="@+id/btn_playAudio"
+                android:contentDescription="@string/button_to_forward_audio_by_ten_seconds" />
+
+            <ImageView
+                android:id="@+id/btn_backward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/ic_forward_icon_button"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_playAudio"
+                app:layout_constraintStart_toStartOf="@+id/seekBar"
+                app:layout_constraintTop_toTopOf="@+id/btn_playAudio"
+                android:contentDescription="@string/button_rewind_audio_by_ten_seconds" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ly_topButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:paddingBottom="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/player">
+
+            <ImageView
+                android:id="@+id/btn_showAnswers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/ic_answer_tick"
+                app:layout_constraintEnd_toStartOf="@+id/iv_translate"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/button_to_show_answers" />
+
+            <TextView
+                android:id="@+id/tv_translate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/translate"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@id/iv_translate"
+                app:layout_constraintStart_toStartOf="@id/iv_translate"
+                app:layout_constraintTop_toBottomOf="@id/iv_translate" />
+
+            <ImageView
+                android:id="@+id/iv_translate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:src="@drawable/ic_translator"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btn_showAnswers"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/translate_button" />
+
+            <TextView
+                android:id="@+id/tv_checkAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/answerOnly"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/btn_showAnswers"
+                app:layout_constraintStart_toStartOf="@id/btn_showAnswers"
+                app:layout_constraintTop_toBottomOf="@id/btn_showAnswers" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ly_details"
+            android:padding = "14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ly_topButtons"
+            tools:ignore="WebViewLayout"
+            android:background="@color/yellow_50">
+
+            <WebView
+                android:id="@+id/webView_testDetails"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow_50"
+                android:backgroundTint="@color/yellow_50"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <WebView
+                android:id="@+id/webView_testDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow_50"
+                android:backgroundTint="@color/yellow_50"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/webView_testDetails" />
+
+
+            <WebView
+                android:id="@+id/webView_answers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/yellow_50"
+                android:backgroundTint="@color/yellow_50"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_answerHeading" />
+
+            <TextView
+                android:id="@+id/tv_answerHeading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:text="@string/answerReadingExplanation"
+                android:textColor="@color/green_400"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/webView_testDescription"
+                app:layout_constraintStart_toStartOf="@+id/webView_testDescription"
+                app:layout_constraintTop_toBottomOf="@+id/webView_testDescription" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

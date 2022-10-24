@@ -1,0 +1,2 @@
+rootProject.name = "IELTS_PRACTICE_APP"
+include ':app'

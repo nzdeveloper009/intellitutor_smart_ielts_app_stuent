@@ -1,0 +1,104 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.ielts.preparation.app"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        def date = new Date()
+        def formattedDate = date.format('dd-MMM-yyyy')
+        setProperty("archivesBaseName", "ielts_prep"+"-" + versionCode + "-" +formattedDate)
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "String", "pathPresentSimpleTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Simplepresenttense.html\""
+            buildConfigField "String", "pathPresentContinuousTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Presentcontinuous.html\""
+            buildConfigField "String", "pathPresentPerfectTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Presentperfecttense.html\""
+            buildConfigField "String", "pathPresentPerfectContinuousTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Presentperfectcontinuoustense.html\""
+            buildConfigField "String", "pathPastSimpleTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Simplepast.html\""
+            buildConfigField "String", "pathPastContinuousTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Pastcontinuoustense.html\""
+            buildConfigField "String", "pathPastPerfectTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Pastperfecttense.html\""
+            buildConfigField "String", "pathPastPerfectContinuousTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Pastperfectcontinuous.html\""
+            buildConfigField "String", "pathFutureSimpleTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Simplefuturetense.html\""
+            buildConfigField "String", "pathFutureContinuousTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Futurecontinuoustense.html\""
+            buildConfigField "String", "pathFuturePerfectTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Futureperfecttense.html\""
+            buildConfigField "String", "pathFuturePerfectContinuousTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Futureperfectcontinuoustense.html\""
+
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "pathPresentSimpleTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Simplepresenttense.html\""
+            buildConfigField "String", "pathPresentContinuousTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Presentcontinuous.html\""
+            buildConfigField "String", "pathPresentPerfectTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Presentperfecttense.html\""
+            buildConfigField "String", "pathPresentPerfectContinuousTense", "\"file:///android_asset/ielts_test/tenses/present_tense/Presentperfectcontinuoustense.html\""
+            buildConfigField "String", "pathPastSimpleTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Simplepast.html\""
+            buildConfigField "String", "pathPastContinuousTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Pastcontinuoustense.html\""
+            buildConfigField "String", "pathPastPerfectTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Pastperfecttense.html\""
+            buildConfigField "String", "pathPastPerfectContinuousTense", "\"file:///android_asset/ielts_test/tenses/past_tense/Pastperfectcontinuous.html\""
+            buildConfigField "String", "pathFutureSimpleTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Simplefuturetense.html\""
+            buildConfigField "String", "pathFutureContinuousTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Futurecontinuoustense.html\""
+            buildConfigField "String", "pathFuturePerfectTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Futureperfecttense.html\""
+            buildConfigField "String", "pathFuturePerfectContinuousTense", "\"file:///android_asset/ielts_test/tenses/future_tense/Futureperfectcontinuoustense.html\""
+
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    implementation 'com.google.firebase:firebase-auth:21.0.8'
+    implementation 'com.google.firebase:firebase-database:20.0.6'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
+
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    //kotlin Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
+
+    implementation 'com.google.android.material:material:1.5.0'
+
+    // lottie animation
+    implementation 'com.airbnb.android:lottie:5.0.3'
+    // google Custom progress dialog
+    implementation 'com.jpardogo.googleprogressbar:library:1.2.0'
+
+
+
+}

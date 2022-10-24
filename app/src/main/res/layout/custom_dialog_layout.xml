@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_alertDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="60dp"
+    android:layout_marginEnd="60dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_iconDialog"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            app:layout_constraintEnd_toStartOf="@+id/tv_titleDialog"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_alert" />
+
+        <TextView
+            android:id="@+id/tv_titleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/alert_dialog_title"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginRight="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_iconDialog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/iv_iconDialog"
+            app:layout_constraintTop_toTopOf="@+id/iv_iconDialog" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1.5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titleDialog" />
+
+        <TextView
+            android:id="@+id/tv_questionDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/are_you_sure"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/divider"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <TextView
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_corners"
+            android:backgroundTint="@color/green_400"
+            android:fontFamily="@font/montserrat_medium"
+            android:paddingStart="37dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="37dp"
+            android:paddingBottom="5dp"
+            android:text="@string/yes"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btn_no"
+            app:layout_constraintTop_toTopOf="@+id/btn_no" />
+
+        <TextView
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/rect_corners"
+            android:backgroundTint="@color/red_400"
+            android:fontFamily="@font/montserrat_medium"
+            android:paddingStart="37dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="37dp"
+            android:paddingBottom="5dp"
+            android:text="@string/no"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_yes"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_questionDialog" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

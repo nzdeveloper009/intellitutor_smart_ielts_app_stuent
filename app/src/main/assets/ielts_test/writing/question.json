@@ -1,0 +1,569 @@
+[
+    {
+        "question_cate": 3,
+        "image": null,
+        "question": "Currently there is a trend towards the use of alternative forms of medicine. However, at best these methods are ineffective, and at worst they may be dangerous.<br><br>\nTo what extent do you agree with this statement?",
+        "question_id": 1,
+        "q_modelId": 1,
+        "q_recent": 55,
+        "q_type": 12
+    },
+    {
+        "question_cate": 3,
+        "image": null,
+        "question": "Smoking not only harms the smoker, but also those who are nearby. Therefore, smoking should be banned in public places.<br>\n\nTo what extent do you agree or disagree?<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge.",
+        "question_id": 2,
+        "q_modelId": 2,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 7,
+        "image": null,
+        "question": "Write about the following topic:<br><br>\n\nSome people believe the aim of university education is to help graduates get better jobs. Others believe there are much wider benefits of university education for both individuals and society.<br><br>\n\nDiscuss both views and give your opinion.<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge.",
+        "question_id": 3,
+        "q_modelId": 3,
+        "q_recent": 55,
+        "q_type": 12
+    },
+    {
+        "question_cate": 3,
+        "image": null,
+        "question": "Do the dangers derived from the use of chemicals in food production and preservation outweigh the advantages?<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge.",
+        "question_id": 4,
+        "q_modelId": 4,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 1,
+        "image": null,
+        "question": "In order to solve traffic problems, governments should tax private car owners heavily and use the money to improve public transportation.<br><br>\n\nWhat are the advantages and disadvantages of such a solution?<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge",
+        "question_id": 5,
+        "q_modelId": 5,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "Some people think that the main factors influencing a child’s development these days are things such as television, friends, and music. Others believe that the family still remains more important.\nDiscuss both opinions and give your opinion.",
+        "question_id": 6,
+        "q_modelId": 6,
+        "q_recent": 55,
+        "q_type": 12
+    },
+    {
+        "question_cate": 9,
+        "image": null,
+        "question": "Levels of youth crime are increasing rapidly in most cities around the world.<br><br>\n\nWhat are the reasons for this, and suggest some solutions.<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge.",
+        "question_id": 7,
+        "q_modelId": 7,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "As countries have developed there has been a trend towards smaller family sizes.<br><br>\nWhy does this happen?<br><br>\nHow does this affect society?",
+        "question_id": 8,
+        "q_modelId": 8,
+        "q_recent": 55,
+        "q_type": 12
+    },
+    {
+        "question_cate": 4,
+        "image": null,
+        "question": "Nowadays more and more older people who are looking for work have to compete with younger people for the same jobs.<br><br>\n\nWhat problems does this cause?<br>\nWhat are some possible solutions?",
+        "question_id": 9,
+        "q_modelId": 9,
+        "q_recent": 55,
+        "q_type": 12
+    },
+    {
+        "question_cate": 2,
+        "image": null,
+        "question": "Government investment in the arts, such as music and theatre, is a waste of money. Governments must invest this money in public services instead.<br><br>\n\nTo what extent do you agree with this statement??<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge",
+        "question_id": 10,
+        "q_modelId": 10,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "A growing number of people feel that animals should not be exploited by people and that they should have the same rights as humans, while others argue that humans must employ animals to satisfy their various needs, including uses for food and research.<br><br>\n\nDiscuss both views and give your opinion.<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge",
+        "question_id": 11,
+        "q_modelId": 11,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 4,
+        "image": null,
+        "question": "Some people believe that they should be able to keep all the money they earn, and should not have to pay tax to the state.<br><br>\n\nTo what extent do you agree or disagree?",
+        "question_id": 12,
+        "q_modelId": 12,
+        "q_recent": 55,
+        "q_type": 12
+    },
+    {
+        "question_cate": 1,
+        "image": "writing_t1_id_1",
+        "question": "The following bar chart shows the different modes of transport used to travel to and from work in one European city in 1960, 1980 and 2000.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 13,
+        "q_modelId": 1,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 4,
+        "image": "writing_t1_id_2",
+        "question": "The chart shows components of GDP in the UK from 1992 to 2000.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 14,
+        "q_modelId": 2,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_3",
+        "question": "The chart shows British Emigration to selected destinations between 2004 and 2007.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 15,
+        "q_modelId": 3,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 3,
+        "image": "writing_t1_id_4",
+        "question": "The line graph below shows changes in the amount and type of fast food consumed by Australian teenagers from 1975 to 2000.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 16,
+        "q_modelId": 4,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 1,
+        "image": "writing_t1_id_5",
+        "question": "The line graph shows thefts per thousand vehicles in four countries between 1990 and 1999.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 17,
+        "q_modelId": 5,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_6",
+        "question": "The pie chart shows the amount of money that a children's charity located in the USA spent and received in one year.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 18,
+        "q_modelId": 6,
+        "q_recent": 55,
+        "q_type": 11
+    },
+    {
+        "question_cate": 2,
+        "image": "writing_t1_id_7",
+        "question": "The line graph shows visits to and from the UK from 1979 to 1999, and the bar graph shows the most popular countries visited by UK residents in 1999.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 19,
+        "q_modelId": 7,
+        "q_recent": 55,
+        "q_type": 11
+    },
+    {
+        "question_cate": 9,
+        "image": "writing_t1_id_8",
+        "question": "The pie chart shows the percentage of persons arrested in the five years ending 1994 and the bar chart shows the most recent reasons for arrest.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 20,
+        "q_modelId": 8,
+        "q_recent": 52,
+        "q_type": 11
+    },
+    {
+        "question_cate": 3,
+        "image": "writing_t1_id_9",
+        "question": "The illustrations show how chocolate is produced.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 21,
+        "q_modelId": 9,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 7,
+        "image": "writing_t1_id_10",
+        "question": "The line graph shows the number of books that were borrowed in four different months in 2014 from four village libraries, and the pie chart shows the percentage of books, by type, that were borrowed over this time.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 22,
+        "q_modelId": 10,
+        "q_recent": 52,
+        "q_type": 11
+    },
+    {
+        "question_cate": 4,
+        "image": null,
+        "question": "You want to sell your television. You think a friend of yours might like to buy it from you. Write a letter to your friend.<br><br>\n\nIn your letter:<br><br>\n\nExplain why you are selling the television.<br>\nDescribe the television.<br>\nSuggest a date when your friend can come and see it.<br>\n\nWrite at least 150 words<br><br>\n\nYou do NOT need to write any addresses<br>\n\nBegin your letter as follows:<br><br>\n\nDear……..,",
+        "question_id": 23,
+        "q_modelId": 1,
+        "q_recent": 55,
+        "q_type": 10
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "You are experiencing financial problems and want to ask your landlord if you can pay your rent late. Write a letter to your landlord.<br><br>\n\nIn your letter explain:<br><br>\n\nWhy you are writing to him<br>\nWhy you cannot pay the rent<br>\nWhen you will pay the rent.<br><br>\n\n\nWrite at least 150 words<br><br>\n\nYou do NOT need to write any addresses<br><br>\n\nBegin your letter as follows:<br><br>\n\nDear……..,",
+        "question_id": 24,
+        "q_modelId": 2,
+        "q_recent": 55,
+        "q_type": 10
+    },
+    {
+        "question_cate": 4,
+        "image": null,
+        "question": "Your car insurance company has told you that they are going to increase the amount you have to pay in insurance for your car each month. You are not happy about this.<br><br>\n\nWrite a letter to your insurance company. In your letter explain<br><br>\n\nWhy you are writing to them<br>\nWhy you think the insurance should not be increased<br>\nWhat you want them to do",
+        "question_id": 25,
+        "q_modelId": 3,
+        "q_recent": 0,
+        "q_type": 10
+    },
+    {
+        "question_cate": 8,
+        "image": null,
+        "question": "You have bought a new camera but when you got it home you found it had some problems. You returned the camera and spoke to the company representative a week ago but the camera has still not been repaired.<br><br>\n\nWrite a letter to the company. <br><br>\n\nIn your letter:<br><br>\n\nIntroduce yourself<br>\nExplain the situation<br>\nSay what action you would like the company to take",
+        "question_id": 26,
+        "q_modelId": 4,
+        "q_recent": 55,
+        "q_type": 10
+    },
+    {
+        "question_cate": 2,
+        "image": null,
+        "question": "You are going away to travel for the summer. A friend will be looking after your house while you are away. Write a letter to your friend.<br><br>\n\nIn your letter:<br><br>\n\nSay where you are going<br>\nDescribe your house<br>\nExplain some of the things your friend must do to look after your house",
+        "question_id": 27,
+        "q_modelId": 5,
+        "q_recent": 0,
+        "q_type": 10
+    },
+    {
+        "question_cate": 9,
+        "image": null,
+        "question": "Write about the following topic:<br><br>\n\nThe crime rate among teenagers has increased dramatically in many countries.<br><br>\n\nDiscuss some possible reasons for this increase and suggest solutions.<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge.<br><br>",
+        "question_id": 28,
+        "q_modelId": 13,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 7,
+        "image": null,
+        "question": "Some people believe the aim of university education is to help graduates get better jobs.  Others believe there are much wider benefits of university education for both individuals and society.<br><br>\n\nDiscuss both views and give your opinion.",
+        "question_id": 29,
+        "q_modelId": 14,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "More and more qualified people are moving from poor to rich countries to fill vacancies in specialist areas like engineering, computing and medicine. <br><br>\nSome people believe that by encouraging the movement of such people, rich countries are stealing from poor countries. Others feel that this is only part of the natural movement of workers around the world.",
+        "question_id": 30,
+        "q_modelId": 15,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "Modern lifestyles mean that many parents have little time for their children. Many children suffer because they do not get as much attention from their parents as children did in the past.<br><br>\n\nDo you agree or disagree?",
+        "question_id": 31,
+        "q_modelId": 16,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 3,
+        "image": null,
+        "question": "In some countries an increasing number of people are suffering from health problems as a result of eating too much fast food. It is therefore necessary for governments to impose a higher tax on this kind of food.<br><br>\n\nTo what extent do you agree or disagree with this opinion?",
+        "question_id": 32,
+        "q_modelId": 17,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 9,
+        "image": null,
+        "question": "Each year, the crime rate increases.<br><br>\n\nWhat are the causes of crime and what could be done to prevent this rise in criminal activity?<br><br>\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+        "question_id": 33,
+        "q_modelId": 18,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "Some people think that there are things individuals can do to help prevent global climate change. Others believe that action by individuals is useless and irrelevant and that it is only governments and large businesses which can make a difference.<br><br>\n\nDiscuss both these views and give your own opinion.",
+        "question_id": 34,
+        "q_modelId": 19,
+        "q_recent": 52,
+        "q_type": 12
+    },
+    {
+        "question_cate": 2,
+        "image": null,
+        "question": "Some people think that the government is wasting money on the arts and that this money could be better spent elsewhere. <br><br>\n\nTo what extent do you agree with this view?",
+        "question_id": 35,
+        "q_modelId": 0,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 2,
+        "image": null,
+        "question": "Some people think that when a person travels into a different culture they should adapt to the local practices and customs.<br><br>\n\nTo what extent do you agree? ",
+        "question_id": 36,
+        "q_modelId": 0,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 5,
+        "image": null,
+        "question": "You play a team sport with some friends. Last week a member of the team had an accident and wasn't able to play with you at the weekend. You decide to write to him in hospital, telling him about the match.<br><br>\n\nWrite a letter to your friend. In your letter,<br><br>\n\n<b>tell him which team won<br>\ndescribe the conditions on the day<br>\nsay how you felt about the match</b>",
+        "question_id": 37,
+        "q_modelId": 6,
+        "q_recent": 0,
+        "q_type": 10
+    },
+    {
+        "question_cate": 7,
+        "image": null,
+        "question": "You are not happy with the course you are doing at college and would like to change to a different course. Write a letter to the college director requesting to change your course. You should include details about:<br><br>\n<b>\nwhat course are you doing now<br>\nwhy you are not satisfied with that course<br>\nwhat course would you like to change to</b>",
+        "question_id": 38,
+        "q_modelId": 7,
+        "q_recent": 0,
+        "q_type": 10
+    },
+    {
+        "question_cate": 2,
+        "image": null,
+        "question": "You and your family are planning to spend a weekend at a seaside hotel.<br><br>\n\nTask: Write a letter to the hotel making the arrangements. Let them know when you will be arriving and leaving, what type of rooms you would like, and ask them how much the weekend will cost. Also enquire about activities and places of interest near the hotel.",
+        "question_id": 39,
+        "q_modelId": 8,
+        "q_recent": 0,
+        "q_type": 10
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "Your neighbours have a dog that is noisy at night. You can’t sleep. Write a letter to your neighbours. In your letter:<br><br>\n<b>\ndescribe the problem with the dog<br>\nexplain why it is important for you to sleep<br>\noutline what your neighbours could do about the situation.</b>",
+        "question_id": 40,
+        "q_modelId": 9,
+        "q_recent": 0,
+        "q_type": 10
+    },
+    {
+        "question_cate": 4,
+        "image": "writing_t1_id_11",
+        "question": "The flow chart below shows the sources of natural gas and the way it\nis distributed.<br><br>\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "question_id": 41,
+        "q_modelId": 11,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_12",
+        "question": "The chart shows the global proportions of different types of energy produced annually.<br><br>\n\nSummarise the information by selecting and erporting the main features, and make comparisons where relevant.",
+        "question_id": 42,
+        "q_modelId": 0,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_13",
+        "question": "The diagram shows the processes involved in the formation of acid rain.<br><br>\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "question_id": 43,
+        "q_modelId": 0,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 7,
+        "image": "writing_t1_id_14",
+        "question": "The table shows the Proportions of Pupils Attending Four Secondary School Types Between Between 2000 and 2009.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 44,
+        "q_modelId": 12,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_15",
+        "question": "Below is a map of the city of Brandfield. City planners have decided to build a new shopping mall for the area, and two sites, S1 and S2 have been proposed.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 45,
+        "q_modelId": 13,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 4,
+        "image": "writing_t1_id_16",
+        "question": "The diagram illustrates the process that is used to manufacture bricks for the building industry.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 46,
+        "q_modelId": 14,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_17",
+        "question": "The line graph shows the percentage of people of different age groups and how they rate a set of factors in terms of importance when buying a new home.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 47,
+        "q_modelId": 15,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 8,
+        "image": null,
+        "question": "In the last 20 years there have been significant developments in the field of information technology (IT), for example the World Wide Web and communication by email. However, these developments in IT are likely to have more negative effects than positive in the future.<br><br>\n\nTo what extent do you agree with this view?<br><br>\n\nGive reasons for your answer and include any relevant examples from your own experience or knowledge.",
+        "question_id": 48,
+        "q_modelId": 20,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "Students were asked to write a letter to a friend to tell him/her about a new flat move. They need to say why they’ve moved, what the new flat is like and to invite their friend to visit.",
+        "question_id": 49,
+        "q_modelId": 10,
+        "q_recent": 52,
+        "q_type": 10
+    },
+    {
+        "question_cate": 5,
+        "image": null,
+        "question": "In this question learners were asked to discuss why people travel more these days and to think about the benefits of travel.",
+        "question_id": 50,
+        "q_modelId": 21,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_18",
+        "question": "The charts below show the distribution of families with children by employment status in Canada in 1976 and 2014<br><br>\nSummarise the information by selecting and reporting the main features, making comparisons where relevant",
+        "question_id": 51,
+        "q_modelId": 16,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "writing_t1_id_19",
+        "question": "The graphs shows US household spending patterns in 1966 and 1996.<br><br>\n\nSummarize the information by selecting and reporting the main features and make comparisons where relevant.",
+        "question_id": 52,
+        "q_modelId": 17,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "In many cities an increasing number of people do not know their neighbours and there is a lack of a sense of community.<br><br> What are the causes of this problem? <br><br>How can it be solved?",
+        "question_id": 53,
+        "q_modelId": 22,
+        "q_recent": 0,
+        "q_type": 12
+    },
+    {
+        "question_cate": 8,
+        "image": null,
+        "question": "Maintaining public libraries is a waste of time since digital technology is now replacing their function. To what extent do you agree or disagree?",
+        "question_id": 54,
+        "q_modelId": 23,
+        "q_recent": 52,
+        "q_type": 12
+    },
+    {
+        "question_cate": 8,
+        "image": null,
+        "question": "An increasing trend nowadays is for young adults to play computer games. Some people say this is a negative development. Discuss and give your opinion.",
+        "question_id": 55,
+        "q_modelId": 24,
+        "q_recent": 55,
+        "q_type": 12
+    },
+    {
+        "question_cate": 4,
+        "image": null,
+        "question": "It is sometimes said that a high salary is the most important factor in choosing a job. Do you agree?",
+        "question_id": 56,
+        "q_modelId": 25,
+        "q_recent": 52,
+        "q_type": 12
+    },
+    {
+        "question_cate": 1,
+        "image": "writing_t1_id_20",
+        "question": "This table shows how many people (in millions) used different form public transport in Milan between 2010 and 2014\n<br><br>\nSummarise the information by selecting and reporting the main features, making comparisons where relevant",
+        "question_id": 57,
+        "q_modelId": 18,
+        "q_recent": 0,
+        "q_type": 11
+    },
+    {
+        "question_cate": 6,
+        "image": "",
+        "question": "You arranged to visit a friend in England but an important event at home now means that you must change the dates of the visit.<br><br>\n\nWrite a letter to your friend. In your letter<br><br>\n\nExplain the important event<br><br>\n\nApologise for the situation<br><br>\n\nSuggest a new arrangement",
+        "question_id": 58,
+        "q_modelId": 11,
+        "q_recent": 55,
+        "q_type": 10
+    },
+    {
+        "question_cate": 4,
+        "image": "",
+        "question": "A friend of yours is going on holiday soon and has asked you to recommend a destination.<br><br>\n\nWrite a letter to your friend and recommend a good place for a holiday that you have visited before.<br><br>\n\nsay where you went,<br>\nwhere you stayed,<br>\nwhat you can do there and<br>\nwhat the food was like.",
+        "question_id": 59,
+        "q_modelId": 12,
+        "q_recent": 0,
+        "q_type": 10
+    },
+    {
+        "question_cate": 6,
+        "image": null,
+        "question": "Immigration has a major impact on the society.<br><br>\n\nWhat are the main reasons of immigration?<br><br>\n\nTo what consequences can it lead?",
+        "question_id": 60,
+        "q_modelId": 26,
+        "q_recent": 51,
+        "q_type": 12
+    },
+    {
+        "question_cate": 8,
+        "image": "writing_t1_id_21",
+        "question": "The graph shows average annual expenditures on cell phone and residential phone services between 2001 and 2010.<br><br>\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "question_id": 61,
+        "q_modelId": 19,
+        "q_recent": 51,
+        "q_type": 11
+    },
+    {
+        "question_cate": 5,
+        "image": "writing_t1_id_22",
+        "question": "The pie graphs below show the result of a survey of children's activities. The first graph shows the cultural and leisure activities that boys participate in, whereas the second graph shows the activities in which the girls participate.<br><br>\n\nWrite a report describing the information shown in the two pie graphs.",
+        "question_id": 62,
+        "q_modelId": 20,
+        "q_recent": 51,
+        "q_type": 11
+    },
+    {
+        "question_cate": 4,
+        "image": null,
+        "question": "Big salary is much more important than job satisfaction.<br><br>\n\nDo you agree or disagree?<br><br>\n\nProvide relevant examples if necessary.",
+        "question_id": 63,
+        "q_modelId": 27,
+        "q_recent": 51,
+        "q_type": 12
+    }
+]

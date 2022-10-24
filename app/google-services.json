@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "901683531614",
+    "firebase_url": "https://intellitutor-smart-ielts-app-default-rtdb.firebaseio.com",
+    "project_id": "intellitutor-smart-ielts-app",
+    "storage_bucket": "intellitutor-smart-ielts-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901683531614:android:590e1ec50950a19c6989cf",
+        "android_client_info": {
+          "package_name": "com.fyp.intellitutor_smartieltsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901683531614-hj5inm8opggu852hh1l14f5mapvo8uk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnNOMkTyfzklBm9WIFMjyMYf-qLTG5cY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901683531614-hj5inm8opggu852hh1l14f5mapvo8uk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901683531614:android:f56fba44e882722c6989cf",
+        "android_client_info": {
+          "package_name": "com.ielts.preparation.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901683531614-hj5inm8opggu852hh1l14f5mapvo8uk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnNOMkTyfzklBm9WIFMjyMYf-qLTG5cY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901683531614-hj5inm8opggu852hh1l14f5mapvo8uk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

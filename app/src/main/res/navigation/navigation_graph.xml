@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.ielts.preparation.ui.dashboard.fragment.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_vocabularyTopicsFragment"
+            app:destination="@id/vocabularyTopicsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_grammarHomeFragment"
+            app:destination="@id/grammarHomeFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_ieltsTipsFragment"
+            app:destination="@id/ieltsTipsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_readingLessonHomeFragment"
+            app:destination="@id/readingLessonHomeFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_readingTestMainTopicsFragment"
+            app:destination="@id/readingTestMainTopicsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_writingLessonHomeFragment"
+            app:destination="@id/writingLessonHomeFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_writingTasksFragment"
+            app:destination="@id/writingTasksFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_speakingLessonHomeFragment"
+            app:destination="@id/speakingLessonHomeFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_speakingTestHomeFragment"
+            app:destination="@id/speakingTestHomeFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_listeningLessonHomeFragment"
+            app:destination="@id/listeningLessonHomeFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_listeningTestMainTopicsFragment"
+            app:destination="@id/listeningTestMainTopicsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vocabularyTopicsFragment"
+        android:name="com.ielts.preparation.ui.vocabulary.fragments.VocabularyTopicsFragment"
+        android:label="fragment_vocabulary_topics"
+        tools:layout="@layout/fragment_vocabulary_topics" >
+        <action
+            android:id="@+id/action_vocabularyTopicsFragment_to_translateBottomSheetFragment"
+            app:destination="@id/translateBottomSheetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/grammarHomeFragment"
+        android:name="com.ielts.preparation.ui.grammarForIELTS.fragments.grammarHome.GrammarHomeFragment"
+        android:label="grammar_home_fragment"
+        tools:layout="@layout/grammar_home_fragment" >
+        <action
+            android:id="@+id/action_grammarHomeFragment_to_tensesExplanationFragment"
+            app:destination="@id/tensesExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tensesExplanationFragment"
+        android:name="com.ielts.preparation.ui.grammarForIELTS.fragments.tenses.TensesExplanationFragment"
+        android:label="fragment_tenses_explanation"
+        tools:layout="@layout/fragment_tenses_explanation" >
+        <argument
+            android:name="tenseExplanation"
+            app:argType="string" />
+        <argument
+            android:name="tenseName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/ieltsTipsFragment"
+        android:name="com.ielts.preparation.ui.ieltsTips.fragment.ieltsTipsHome.IeltsTipsFragment"
+        android:label="fragment_ielts_tips"
+        tools:layout="@layout/fragment_ielts_tips" >
+        <action
+            android:id="@+id/action_ieltsTipsFragment_to_ieltsTipsExplanationFragment"
+            app:destination="@id/ieltsTipsExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ieltsTipsExplanationFragment"
+        android:name="com.ielts.preparation.ui.ieltsTips.fragment.ieltsTipsExplanation.IeltsTipsExplanationFragment"
+        android:label="fragment_ielts_tips_explanation"
+        tools:layout="@layout/fragment_ielts_tips_explanation" >
+        <argument
+            android:name="selectedItem"
+            app:argType="com.ielts.preparation.ui.ieltsTips.data.IeltsTipsItems" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingLessonHomeFragment"
+        android:name="com.ielts.preparation.ui.reading.readingLessons.fragments.readingLessonHome.ReadingLessonHomeFragment"
+        android:label="fragment_reading_lesson_home"
+        tools:layout="@layout/fragment_reading_lesson_home" >
+        <action
+            android:id="@+id/action_readingLessonHomeFragment_to_readingQuestionTypesFragment"
+            app:destination="@id/readingQuestionTypesFragment" />
+        <action
+            android:id="@+id/action_readingLessonHomeFragment_to_readingSkillsFragment"
+            app:destination="@id/readingSkillsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingQuestionTypesFragment"
+        android:name="com.ielts.preparation.ui.reading.readingLessons.fragments.readingQuestionTypes.ReadingQuestionTypesFragment"
+        android:label="fragment_reading_question_types"
+        tools:layout="@layout/fragment_reading_question_types" >
+        <argument
+            android:name="selectedTopicItems"
+            app:argType="com.ielts.preparation.data.LessonItems[]" />
+        <action
+            android:id="@+id/action_readingQuestionTypesFragment_to_readingContentExplanationFragment"
+            app:destination="@id/readingContentExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingSkillsFragment"
+        android:name="com.ielts.preparation.ui.reading.readingLessons.fragments.readingSkills.ReadingSkillsFragment"
+        android:label="fragment_reading_skills"
+        tools:layout="@layout/fragment_reading_skills" >
+        <argument
+            android:name="selectedTopicItems"
+            app:argType="com.ielts.preparation.data.LessonItems[]" />
+        <action
+            android:id="@+id/action_readingSkillsFragment_to_readingContentExplanationFragment"
+            app:destination="@id/readingContentExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingContentExplanationFragment"
+        android:name="com.ielts.preparation.ui.reading.readingLessons.fragments.contentExplanation.ReadingContentExplanationFragment"
+        android:label="fragment_reading_content_explanation"
+        tools:layout="@layout/fragment_reading_content_explanation" >
+        <argument
+            android:name="clickedItemDetails"
+            app:argType="com.ielts.preparation.data.LessonItems" />
+        <argument
+            android:name="position"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingTestMainTopicsFragment"
+        android:name="com.ielts.preparation.ui.reading.readingTests.fragments.ReadingTestMainTopicsFragment"
+        android:label="fragment_reading_test_main_topics"
+        tools:layout="@layout/fragment_reading_test_main_topics" >
+        <action
+            android:id="@+id/action_readingTestMainTopicsFragment_to_readingTestExplanationFragment"
+            app:destination="@id/readingTestExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingTestExplanationFragment"
+        android:name="com.ielts.preparation.ui.reading.readingTests.fragments.ReadingTestExplanationFragment"
+        android:label="fragment_reading_test_explanation"
+        tools:layout="@layout/fragment_reading_test_explanation" >
+        <argument
+            android:name="clickedTestDetails"
+            app:argType="com.ielts.preparation.ui.reading.readingTests.data.ReadingTestsItems[]" />
+        <action
+            android:id="@+id/action_readingTestExplanationFragment_to_translateBottomSheetFragment"
+            app:destination="@id/translateBottomSheetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/writingLessonHomeFragment"
+        android:name="com.ielts.preparation.ui.writing.writingLesson.writingLessonHome.WritingLessonHomeFragment"
+        android:label="fragment_writing_lesson_home"
+        tools:layout="@layout/fragment_writing_lesson_home" >
+        <action
+            android:id="@+id/action_writingLessonHomeFragment_to_writingLessonCommonsFragment"
+            app:destination="@id/writingLessonSubTopicsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/writingLessonSubTopicsFragment"
+        android:name="com.ielts.preparation.ui.writing.writingLesson.writingLessonSubTopics.WritingLessonSubTopicsFragment"
+        android:label="fragment_writing_lesson_commons"
+        tools:layout="@layout/fragment_writing_lesson_sub_topics" >
+        <argument
+            android:name="writingCommonItems"
+            app:argType="com.ielts.preparation.data.LessonItems[]" />
+        <action
+            android:id="@+id/action_writingLessonCommonsFragment_to_writingLessonCommonExplanationFragment"
+            app:destination="@id/writingLessonSubTopicsExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/writingLessonSubTopicsExplanationFragment"
+        android:name="com.ielts.preparation.ui.writing.writingLesson.writingLessonSubTopics.WritingLessonSubTopicsExplanationFragment"
+        android:label="fragment_writing_lesson_common_explanation"
+        tools:layout="@layout/fragment_writing_lesson_sub_topics_explanation" >
+        <argument
+            android:name="receivedContent"
+            app:argType="com.ielts.preparation.data.LessonItems"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/writingTasksFragment"
+        android:name="com.ielts.preparation.ui.writing.writingTasks.fragment.WritingTasksFragment"
+        android:label="fragment_writing_task1"
+        tools:layout="@layout/fragment_writing_tasks" >
+        <argument
+            android:name="taskType"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_writingTasksFragment_to_writingTask1ExplanationFragment"
+            app:destination="@id/writingTask1ExplanationFragment" />
+        <action
+            android:id="@+id/action_writingTasksFragment_to_writingTask2ExplanationFragment"
+            app:destination="@id/writingTask2ExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/writingTask1ExplanationFragment"
+        android:name="com.ielts.preparation.ui.writing.writingTasks.fragment.tasks.WritingTask1ExplanationFragment"
+        android:label="fragment_writing_tasks_explanation"
+        tools:layout="@layout/fragment_writing_task_1_explanation" >
+        <argument
+            android:name="question"
+            app:argType="string" />
+        <argument
+            android:name="questionImageName"
+            app:argType="string" />
+        <argument
+            android:name="answer"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/writingTask2ExplanationFragment"
+        android:name="com.ielts.preparation.ui.writing.writingTasks.fragment.tasks.WritingTask2ExplanationFragment"
+        android:label="fragment_writing_task2_explanation"
+        tools:layout="@layout/fragment_writing_task2_explanation" >
+        <argument
+            android:name="question"
+            app:argType="string" />
+        <argument
+            android:name="answer"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/speakingLessonHomeFragment"
+        android:name="com.ielts.preparation.ui.speaking.speakingLessons.fragment.speakingLessonHome.SpeakingLessonHomeFragment"
+        android:label="fragment_speaking_lesson_home"
+        tools:layout="@layout/fragment_speaking_lesson_home" >
+        <action
+            android:id="@+id/action_speakingLessonHomeFragment_to_speakingLessonMainTopicsFragment"
+            app:destination="@id/speakingLessonMainTopicsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/speakingLessonMainTopicsFragment"
+        android:name="com.ielts.preparation.ui.speaking.speakingLessons.fragment.speakingLessonMainTopics.SpeakingLessonMainTopicsFragment"
+        android:label="fragment_speaking_lesson_main_topics"
+        tools:layout="@layout/fragment_speaking_lesson_main_topics" >
+        <argument
+            android:name="speakingMainTopics"
+            app:argType="com.ielts.preparation.data.LessonItems[]" />
+        <action
+            android:id="@+id/action_speakingLessonMainTopicsFragment_to_speakingLessonMainTopicExplanationFragment"
+            app:destination="@id/speakingLessonMainTopicExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/speakingLessonMainTopicExplanationFragment"
+        android:name="com.ielts.preparation.ui.speaking.speakingLessons.fragment.speakingLessonMainTopicExplanations.SpeakingLessonMainTopicExplanationFragment"
+        android:label="SpeakingLessonMainTopicExplanationFragment"
+        tools:layout="@layout/fragment_speaking_lesson_main_topic_explanation">
+        <argument
+            android:name="receivedItems"
+            app:argType="com.ielts.preparation.data.LessonItems" />
+    </fragment>
+    <fragment
+        android:id="@+id/speakingTestHomeFragment"
+        android:name="com.ielts.preparation.ui.speaking.speakingTests.fragment.SpeakingTestHomeFragment"
+        android:label="fragment_speaking_test_home"
+        tools:layout="@layout/fragment_speaking_test_home" >
+        <action
+            android:id="@+id/action_speakingTestHomeFragment_to_speakingTestExplanationFragment"
+            app:destination="@id/speakingTestExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/speakingTestExplanationFragment"
+        android:name="com.ielts.preparation.ui.speaking.speakingTests.fragment.SpeakingTestExplanationFragment"
+        android:label="fragment_speaking_test_explanation"
+        tools:layout="@layout/fragment_speaking_test_explanation" >
+        <argument
+            android:name="clickedItem"
+            app:argType="com.ielts.preparation.ui.speaking.speakingTests.data.SpeakingTestItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/listeningLessonHomeFragment"
+        android:name="com.ielts.preparation.ui.listening.listeningLessons.fragments.listeningLessonHome.ListeningLessonHomeFragment"
+        android:label="fragment_listening_lesson_home"
+        tools:layout="@layout/fragment_listening_lesson_home" >
+        <action
+            android:id="@+id/action_listeningLessonHomeFragment_to_listeningLessonMainTopicsFragment"
+            app:destination="@id/listeningLessonMainTopicsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listeningLessonMainTopicsFragment"
+        android:name="com.ielts.preparation.ui.listening.listeningLessons.fragments.listeningLessonMainTopics.ListeningLessonMainTopicsFragment"
+        android:label="fragment_listening_lesson_main_topics"
+        tools:layout="@layout/fragment_listening_lesson_main_topics" >
+        <argument
+            android:name="receivedItemsArray"
+            app:argType="com.ielts.preparation.data.LessonItems[]" />
+        <action
+            android:id="@+id/action_listeningLessonMainTopicsFragment_to_listeningMainTopicExplanationFragment"
+            app:destination="@id/listeningMainTopicExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listeningMainTopicExplanationFragment"
+        android:name="com.ielts.preparation.ui.listening.listeningLessons.fragments.listeningLessonMainTopicsExplanation.ListeningMainTopicExplanationFragment"
+        android:label="ListeningMainTopicExplanationFragment"
+        tools:layout="@layout/fragment_listening_main_topic_explanation">
+        <argument
+            android:name="currentTopicDetails"
+            app:argType="com.ielts.preparation.data.LessonItems" />
+    </fragment>
+    <fragment
+        android:id="@+id/listeningTestMainTopicsFragment"
+        android:name="com.ielts.preparation.ui.listening.listeningTests.fragments.ListeningTestMainTopicsFragment"
+        android:label="fragment_listening_test_main_topics"
+        tools:layout="@layout/fragment_listening_test_main_topics" >
+        <action
+            android:id="@+id/action_listeningTestMainTopicsFragment_to_listeningTestMainTopicExplanationFragment"
+            app:destination="@id/listeningTestMainTopicExplanationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listeningTestMainTopicExplanationFragment"
+        android:name="com.ielts.preparation.ui.listening.listeningTests.fragments.ListeningTestMainTopicExplanationFragment"
+        android:label="fragment_listening_test_main_topic_explanation"
+        tools:layout="@layout/fragment_listening_test_main_topic_explanation" >
+        <argument
+            android:name="clickedItem"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_listeningTestMainTopicExplanationFragment_to_translateBottomSheetFragment"
+            app:destination="@id/translateBottomSheetFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/translateBottomSheetFragment"
+        android:name="com.ielts.preparation.ui.translate.TranslateBottomSheetFragment"
+        android:label="fragment_traslate_bottom_sheet"
+        tools:layout="@layout/fragment_traslate_bottom_sheet" >
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <argument
+            android:name="heading"
+            app:argType="string" />
+    </dialog>
+</navigation>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/blue_500"
+    app:strokeWidth="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_titleTopicName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/topic_title"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_wordPosition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="@string/currentPosition_totalWords"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_titleTopicName"
+                    app:layout_constraintStart_toStartOf="@+id/tv_titleTopicName"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_titleTopicName" />
+
+
+                <TextView
+                    android:id="@+id/tv_wordName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="64dp"
+                    android:fontFamily="@font/montserrat_semi_bold"
+                    android:text="@string/word_name"
+                    android:textColor="@color/black"
+                    android:textSize="35sp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_wordPosition"
+                    tools:ignore="TextViewEdits,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/tv_partOfSpeech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="@string/part_of_speech"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_wordName"
+                    app:layout_constraintStart_toStartOf="@+id/tv_wordName"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_wordName" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_meaning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/white"
+                    android:elevation="0dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:inputType="textShortMessage"
+                    android:letterSpacing="0"
+                    android:paddingLeft="14dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="14dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/meaning"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_translate"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_pronounUK"
+                    app:strokeColor="@color/blue_500"
+                    app:strokeWidth="@dimen/cardview_compat_inset_shadow" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_translate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:elevation="0dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:inputType="textShortMessage"
+                    android:letterSpacing="0"
+                    android:paddingLeft="14dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="14dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/translate"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btn_meaning"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_webSearch"
+                    app:layout_constraintStart_toEndOf="@+id/btn_meaning"
+                    app:layout_constraintTop_toTopOf="@+id/btn_meaning"
+                    app:strokeColor="@color/red_500"
+                    app:strokeWidth="@dimen/cardview_compat_inset_shadow" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_webSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="30dp"
+                    android:backgroundTint="@color/white"
+                    android:elevation="0dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:inputType="textShortMessage"
+                    android:letterSpacing="0"
+                    android:paddingLeft="14dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="14dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/web_search"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    app:cornerRadius="40dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btn_translate"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/btn_translate"
+                    app:layout_constraintTop_toTopOf="@+id/btn_translate"
+                    app:strokeColor="@color/orange_800"
+                    app:strokeWidth="@dimen/cardview_compat_inset_shadow" />
+
+                <TextView
+                    android:id="@+id/tv_pronounUK"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="end"
+                    android:text="@string/uk"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_partOfSpeech"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_partOfSpeech" />
+
+                <TextView
+                    android:id="@+id/tv_pronounUS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="start"
+                    android:text="@string/us"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/tv_pronounUK"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/tv_partOfSpeech"
+                    app:layout_constraintTop_toTopOf="@+id/tv_pronounUK" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
+

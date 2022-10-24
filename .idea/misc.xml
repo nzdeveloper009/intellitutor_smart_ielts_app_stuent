@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/alert_dialog_background.xml" value="0.1655" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/circle_shape.xml" value="0.187" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_arrow_next.xml" value="0.214" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.214" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1655" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.208" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.1475" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_dashboard_main_card_image.xml" value="0.187" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_group.xml" value="0.1475" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_group_6.xml" value="0.1475" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_listening_image_transparent_background.xml" value="0.214" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_reading_lesson_card.xml" value="0.171" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_reading_lesson_card_blue_illustration.xml" value="0.171" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_rounded_main.xml" value="0.1655" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_splash_background.xml" value="0.208" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_splash_bottom.xml" value="0.214" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_splash_main_image.xml" value="0.171" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_tips_orange_background.xml" value="0.171" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_vocabulary_blue.xml" value="0.214" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_vocabulary_icon_purple.xml" value="0.214" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/ic_writing_lesson_card.xml" value="0.187" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/rounded_corners.xml" value="0.214" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/drawable/splash_background.xml" value="0.171" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/custom_dialog_layout.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/dashboard_cardview_items.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_explanation_parts_of_speech.xml" value="0.12511332728921123" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_ielts_tips.xml" value="0.33931623931623933" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_ielts_tips_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_listening_home.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_listening_lesson_home.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_listening_lesson_main_topics.xml" value="0.16973065412569474" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_listening_main_topic_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_listening_test_main_topic_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_listening_test_main_topics.xml" value="0.16973065412569474" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_parts_of_speech.xml" value="0.12511332728921123" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_reading_content_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_reading_home.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_reading_lesson_home.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_reading_question_types.xml" value="0.16973065412569474" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_reading_skills.xml" value="0.11594202898550725" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_reading_test_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_reading_test_main_topics.xml" value="0.5" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_speaking_home.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_speaking_lesson_home.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_speaking_lesson_main_topic_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_speaking_lesson_main_topics.xml" value="0.16973065412569474" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_speaking_test_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_speaking_test_home.xml" value="0.16973065412569474" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_tenses_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_tenses_home.xml" value="0.16364460562103356" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_tenses_types.xml" value="0.16409791477787852" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_vocabulary_topics.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_vocabulary_words.xml" value="0.22" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_home.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_common_explanation.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_commons.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_home.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_sub_topics.xml" value="0.1" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_sub_topics_explanation.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_task1.xml" value="0.11594202898550725" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_task1_explanation.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_task2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_lesson_task2_explanation.xml" value="0.21041666666666667" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_task1.xml" value="0.11865942028985507" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_task1_test.xml" value="0.11865942028985507" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_task2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_task2_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_task_1_explanation.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_tasks.xml" value="0.12511332728921123" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/fragment_writing_tasks_explanation.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/grammar_home_fragment.xml" value="0.22" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/grammar_home_items.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/ielts_tips_home_items.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/lesson_main_topic_items.xml" value="0.547107438016529" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/parts_of_speech_items.xml" value="0.67" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/reading_main_topic_items.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/reading_test_main_topic_items.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/reading_test_topic_items.xml" value="0.11594202898550725" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/tenses_items.xml" value="0.67" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/tenses_types_items.xml" value="0.5" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/tests_main_topic_items.xml" value="0.5" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/top_app_bar.xml" value="0.18" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/vocabulary_topic_items.xml" value="0.67" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS-Practice-IELTS-Test-2022/app/src/main/res/layout/vocabulary_word_items.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.117" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.2035" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.117" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.1345" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.117" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/activity_second_main.xml" value="0.13405797101449277" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/dashboard_cardview_items.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_dashboard.xml" value="0.21" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_explanation_parts_of_speech.xml" value="0.10916919959473151" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_ielts_tips.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_ielts_tips_explanation.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_parts_of_speech.xml" value="0.10916919959473151" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_reading_home.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_reading_lesson_home.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_reading_question_types.xml" value="0.1431159420289855" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_reading_question_types_explanation.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_reading_skills.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_tenses_explanation.xml" value="0.1" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_tenses_home.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_tenses_types.xml" value="0.1" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_vocabulary_topics.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_vocabulary_words.xml" value="0.25" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/fragment_web_view_explanation.xml" value="0.10916919959473151" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/grammar_home_fragment.xml" value="0.10916919959473151" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/ielts_tips_home_items.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/parts_of_speech_items.xml" value="0.5" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/reading_main_topic_items.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/vocabulary_topic_items.xml" value="0.33" />
+        <entry key="..\:/Internship Projects at Sofit/IELTS_PRACTICE_APP/app/src/main/res/layout/vocabulary_word_items.xml" value="0.1839080459770115" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/drawable/button_back.xml" value="0.1585" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/drawable/ic_error.xml" value="0.1585" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/drawable/ic_password.xml" value="0.1585" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/drawable/ic_person.xml" value="0.1585" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/layout/activity_login.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/layout/progress_bar.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/layout/top_app_bar.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/mipmap-anydpi-v26/app_icon.xml" value="0.1585" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/mipmap-anydpi-v26/app_icon_round.xml" value="0.1585" />
+        <entry key="..\:/Users/Dev/AndroidStudioProjects/codeintra-IELTS-Practice-zolu4j/IELTS-Practice/IELTS-Practice/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.xml" value="0.1585" />
+        <entry key="app/src/main/res/drawable/circle_shape.xml" value="0.2065" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_main_card_image.xml" value="0.273" />
+        <entry key="app/src/main/res/drawable/ic_grammar_purple_background.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/ic_reading_lesson_card.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/ic_splash_background_complete.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/ic_test_card.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/ic_vocabulary_blue.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/rect_corners.xml" value="0.273" />
+        <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.273" />
+        <entry key="app/src/main/res/drawable/top_corners_rounded.xml" value="0.273" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/custom_dialog_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/dashboard_cardview_items.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_explanation_parts_of_speech.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_ielts_tips.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_ielts_tips_explanation.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_listening_lesson_home.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_listening_lesson_main_topics.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_listening_main_topic_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_listening_test_main_topic_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_listening_test_main_topics.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_parts_of_speech.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_reading_content_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_reading_lesson_home.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_reading_question_types.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_reading_skills.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_reading_test_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_reading_test_main_topics.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_speaking_lesson_home.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_speaking_lesson_main_topic_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_speaking_lesson_main_topics.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_speaking_test_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_speaking_test_home.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_tenses_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_traslate_bottom_sheet.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_vocabulary_topics.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_writing_lesson_home.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_writing_lesson_sub_topics.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_writing_lesson_sub_topics_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_writing_lesson_task1.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_writing_lesson_task1_explanation.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_writing_lesson_task2.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_writing_lesson_task2_explanation.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_writing_task2_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_writing_task_1_explanation.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/fragment_writing_tasks.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/grammar_home_fragment.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/grammar_home_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/ielts_tips_home_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/lesson_main_topic_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/parts_of_speech_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/progress.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/reading_test_main_topic_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/tenses_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/tenses_types_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/tests_main_topic_items.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/top_app_bar.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/vocabulary_topic_items.xml" value="0.18177083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
